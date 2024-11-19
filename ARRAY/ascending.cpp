@@ -1,4 +1,4 @@
-// wap to display the array in descending order
+// wap to display the array in ascending order
 #include<iostream>
 using namespace std;
 int main(){
@@ -11,7 +11,7 @@ int main(){
  for(int i = 0;i<len;i++){
     for(int j =0;j<len-1;j++){
         int temp;
-        if(arr[j]<arr[j+1]){
+        if(arr[j]>arr[j+1]){
             temp=arr[j+1];
             arr[j+1]=arr[j];
             arr[j]=temp;
