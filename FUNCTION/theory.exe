@@ -1,0 +1,25 @@
+FUNCTIONS:
+->function is used to perfom any task , it is a collection of data members and statements/code
+
+ADVANTAGES:
+1.function is reuseable
+2.time saving
+3.memory saving
+
+TYPES OF FUNCTION:
+1.Predefined function
+    -MATHS
+    -STRING
+    -TIME etc etc
+2.Userdefined function
+    1.return
+        1.with parameter
+        2.without parameter
+    2non return 
+        1.with parameter
+        2.without parameter
+
+FUNCTION CALLING
+1.Implicit calling -: called on its own
+2.Explicit calling -: We have to call this function manually
+    
