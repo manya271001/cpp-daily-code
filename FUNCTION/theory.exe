@@ -23,3 +23,51 @@ FUNCTION CALLING
 1.Implicit calling -: called on its own
 2.Explicit calling -: We have to call this function manually
     
+Return type function:
+1. without parameter and return value
+-> we have to use cout on server side to see output
+-> use return keyword at the end
+2. with parameter and return value
+
+Question:
+note: universal truth are always non return type (like cube,square)
+1.dealer(){
+90 rs per ltr
+}
+int main(){
+    dealer(4)
+    price + 5%
+}
+
+2. actual and formal parameter
+
+formal parameter : void fun(int a , int b) at the time of function defination,
+actual parameter: argument fun(a,b)
+
+3.parameter and argument
+
+parameter: at the time of function defination void fun(int a , int b)
+it is the formal parameter 
+argument: at the time of function calling fun(a,b)
+
+4. (int a,int b) & (int,int)
+
+
+
+5.function pointer
+6.array as an argument in function
+7.does function multiple value of not
+8.call by reference and call by value
+
+call by value: data get copied original value remaind unchanged
+call by reference: we work on actual data/live data , no backup,less storage
+
+9.WAP for swapping of two variable using reference/call by value
+10. WAP to return max of two values
+11.wap to print the table of anynumber using function
+12.WAP 
+
+
+function overloading: same function name but different parameter
+
+DISADVANTAGES:
