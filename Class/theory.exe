@@ -1,0 +1,101 @@
+OPP's [OBJECT ORIENTED PROGRAMMING]
+c++ supports object oriented programming system/concept
+
+it is bottom to top approach
+
+it have 4 pillars
+1.Object and Class
+2.Encapsulation
+3.Abstaction
+4.Inheritance
+
+CLASS:
+->Blueprint of an object is called Class.
+
+->Real world entity which occupies space and having its own property is called Class
+
+->collection of data and data members and member function is called Class
+
+-> clas is a userdefined datatype
+wont take any memory untill we made an object
+by default it will take 1byte if we make any object and no data member or member function
+
+Object:
+
+->instance of a class is called an object
+
+->object is real world entity
+
+" . " member operator
+
+cannot print/write any statement in class without functions 
+without functions we cannot make classees
+
+Access Modifier/Specifier
+1.public
+2.private
+3.protcted
+
+by default private
+
+class class_name{
+    data member
+    member function
+};
+
+class class_name{
+    datatype variable;
+    public: datatype functionName(){
+        statment/code
+    }
+
+};
+
+int main(){
+    class_name object_name;
+    object_name.functionName;
+}
+
+TO DEFINE A FUNCTION OUTSIDE A CLASS
+
+function_type(return/nonreturn) class_name ::(scope resolution) function_name
+
+STATIC: static member functions and static data members are attribute of class we use "static" keyword to define static member function and data member and we can access it without creating object -> saves memory->object not needed -> security is less -> can be used globally
+
+static data members can in declared inside the class but cannot be assigned inside the class , we assign value to data member outside the class 
+
+class class_name{
+static int a;
+static int b;
+
+fnction()
+
+
+};
+
+int class_name::a=20;
+int class_name::b=20;
+
+
+
+IMPORTANT
+"static data member and static member function is an attribute of a class while non static data members and non statric member function is an attribute of an object "
+
+NOTE: whenever we call static member function we need not to create an object we can access with the name of class using scope resolution operator
+
+static variable are shared not copied
+
+static void fun_name(){
+
+}
+
+class_name::fun_name// access without object
+
+
+"non static member function an data members are attribute of object-> can only be accessed with the help of object"
+
+TYPES OF CLASSES:
+
+1.Single Class: If a progarmm is having only one class is called single class
+2.Multi Class: If a progarmm is having more than one class it is called as multi class
+
