@@ -1,0 +1,34 @@
+POINTER: points  to the memory adress of another variable
+does not have data type by default void and take the data type of the variable it is pointing to
+int *ptr=&a;
+ptr:- represents the adress of adress
+*ptr:- (derefrencing) shows the value at given adress 
+
+int *p; this is wild pointer->points to nothing and shows its own adress
+by default takes 8bytes[always and for all the data type]
+
+int *p=NULL; null pointer shows that ptr is initialised but not any memory is allocated
+int r = 10;
+p=&r; -> memory is assigned and not a null pointer anymore
+
+/*
+                                    DRAWBACKS
+-> we can only assign either adress or NULL value to the pointer and cannot assign any value to pointer int *ptr=100; not possible error will occure 
+->taking up 8bytes is the biggest drawback
+
+*/
+
+JUMPING
+array jumps without loop to any value 
+char *k = "carrom"
+by default pointer is at 0 index
+cout<<*k;
+output->c
+by changing the indexing we can make it jump
+cout<<*(k+3);
+output-> r;
+
+QUESTION: difference btw wild and NULL pointer
+
+//function pointer
+datatype (*function_name)(int int)

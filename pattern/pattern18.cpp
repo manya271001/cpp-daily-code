@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,7 +7,7 @@ int main(){
         for(int c = 4;c>=r;c--){
             cout<<"*";
         }
-        cout<<"\n"
+        cout<<"\n";
     }
    for(int r=1;r<=4;r++){
         for(int s=1;s<r;s++){

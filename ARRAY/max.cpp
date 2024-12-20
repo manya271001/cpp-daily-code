@@ -1,4 +1,4 @@
-// wap to display min value form an array
+// wap to display max value form an array
 #include<iostream>
 using namespace std;
 int main(){
@@ -10,6 +10,6 @@ int main(){
     value=arr[i];
    }
  }
- cout<<"min value = "<<value;
+ cout<<"max value = "<<value;
 }
 

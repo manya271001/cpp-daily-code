@@ -12,9 +12,12 @@ int main(){
     for(int j =0;j<len-1;j++){
         int temp;
         if(arr[j]>arr[j+1]){
-            temp=arr[j+1];
-            arr[j+1]=arr[j];
-            arr[j]=temp;
+            // temp=arr[j+1];
+            // arr[j+1]=arr[j];
+            // arr[j]=temp;
+            temp=arr[j];
+            arr[j]=arr[j+1];
+            arr[j+1]=temp;
         }
     }
  }

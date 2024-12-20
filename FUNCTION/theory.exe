@@ -69,5 +69,23 @@ call by reference: we work on actual data/live data , no backup,less storage
 
 
 function overloading: same function name but different parameter
+multiple function : different function name and different parameter
 
 DISADVANTAGES:
+
+anybody can access and use the function - not secure enough
+after creating object and class the searching will be fast
+
+
+RECURSION:
+1.function calling itself is called RECURSION
+
+2.there are two types of recursion 
+1. HEAD RECURSION FIFO 2. TAIL RECURSION LIFO
+
+3. in a recursion we always use two type of condition 
+1.base condition 
+2.recursion relationship
+
+
+

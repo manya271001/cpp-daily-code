@@ -17,9 +17,21 @@ int a=199;
     }
 };
 
+//Anonymous class
+class{
+int a=1967676769;
+    public: void show(){
+        cout<<"coming from Anonymous class  value of a is "<<a<<"\n";
+    }
+
+
+}obj3;
+
+
 int main(){
     joy obj;
     obj.show();
     joy2 obj2;
     obj2.show();
+    obj3.show();
 }

@@ -98,4 +98,25 @@ TYPES OF CLASSES:
 
 1.Single Class: If a progarmm is having only one class is called single class
 2.Multi Class: If a progarmm is having more than one class it is called as multi class
+3.Anonymous class: A class without any name, and object need to be made write after the closing of class
+4.Composite class : Composite class have an object of previous class and we call the function of previous class iside the member function of Composite class
+
+Encapsulation:Wrapping of data is called Encapsulation
+
+class follows water fall model of SDLC
+
+CONSTRUCTOR: 1. it is called a special type of function 
+2.constructor is used to  the allocate memory to the object
+3.constructor dosent have any return type
+4.by default the class have a constructor which belongs to public Specifier
+5.calls impicitly
+
+"if a class have more than one constructor with different parameter its called constructor overloading"
+
+CONSTRUCTOR
+    ->DEFAULT:syntax [public:class_name(){code/statement}]
+    ->PARAMETERIZED: we use parameter in a function 
+    ->COPY
+        ->SHALLOW COPY
+        ->DEEP COPY
 

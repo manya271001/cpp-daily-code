@@ -29,11 +29,11 @@ int main(){
             }
             for(int c = 1 ; c<=r; c++){
               if(k==0){
-                cout<<k;
+                cout<<k<<" ";
                 k=1;
               }
               else{
-                cout<<k;
+                cout<<k<<" ";
                 k=0;
               }
                 
