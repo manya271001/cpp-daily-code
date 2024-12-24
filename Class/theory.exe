@@ -57,8 +57,8 @@ int main(){
 }
 
 TO DEFINE A FUNCTION OUTSIDE A CLASS
-
-function_type(return/nonreturn) class_name ::(scope resolution) function_name
+"
+function_type(return/nonreturn) class_name ::(scope resolution) function_name"
 
 STATIC: static member functions and static data members are attribute of class we use "static" keyword to define static member function and data member and we can access it without creating object -> saves memory->object not needed -> security is less -> can be used globally
 
@@ -117,6 +117,49 @@ CONSTRUCTOR
     ->DEFAULT:syntax [public:class_name(){code/statement}]
     ->PARAMETERIZED: we use parameter in a function 
     ->COPY
-        ->SHALLOW COPY
-        ->DEEP COPY
+        ->SHALLOW COPY:1.copies value of parameter to the variable of the class internally we use 'this->' keyword.
+        2.copying data one object to  another object
+        3.it is default and work internally
+        
+        ->DEEP COPY:use extra memory
+        parameter should be name of class only
+        secure
+        and not shareable
 
+This Pointer: is used when we have same name of variable and function parameter. shows that this variable belongs to current class
+
+char c[20]: allocate memory in stack at design time
+ and 
+c=new char[20]: allocate memory in heap outside stack at run time
+
+DESTRUCTOR:
+used in releasing memory of allocated object, runs by default 
+
+NOTE:
+bottom - top approach? why??????????????
+give priority to heap(object memory) and then stack in which main is
+class top{
+    top(){
+        constructor
+    }
+}e;
+
+main(){
+    cout<<"hello"
+}
+here the object will give first priority as it will give priority to heap
+
+class top(){
+ top(){
+    constructor
+ }
+};
+int main(){
+    cout<<"hello"
+    top t1;
+}
+here first int main will run and hello will be print bcz we declared object after this 
+"MAIN FUNCTION IS ALWAYS WORK IN STACK"
+main function will execute line by line as stack
+and btw stack and heap priority is given to heap 
+FRIEND:
