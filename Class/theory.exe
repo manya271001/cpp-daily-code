@@ -162,4 +162,13 @@ here first int main will run and hello will be print bcz we declared object afte
 "MAIN FUNCTION IS ALWAYS WORK IN STACK"
 main function will execute line by line as stack
 and btw stack and heap priority is given to heap 
-FRIEND:
+
+
+FRIEND FUNCTION AND FRIEND CLASS: we can access private data member and member function of a class eith freind function, security is less
+
+
+OPERATOR OVERLOADING : all the operators are defined for primitive data types ,to make operator work on non primitive data type (like class etc)
+we redfine operator to work on non primitive data type
+
+"operator overloading is used for redfining the defination of multiple operator for non primitive datatype"
+
