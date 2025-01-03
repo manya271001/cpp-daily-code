@@ -159,7 +159,7 @@ int main(){
     top t1;
 }
 here first int main will run and hello will be print bcz we declared object after this 
-"MAIN FUNCTION IS ALWAYS WORK IN STACK"
+"MAIN FUNCTION  ALWAYS WORK IN STACK"
 main function will execute line by line as stack
 and btw stack and heap priority is given to heap 
 
@@ -171,4 +171,41 @@ OPERATOR OVERLOADING : all the operators are defined for primitive data types ,t
 we redfine operator to work on non primitive data type
 
 "operator overloading is used for redfining the defination of multiple operator for non primitive datatype"
+"it is used in redefining the nature of operator for non primitive data type"
+"used to solve the complex data type"
+there are two types of operator overloading
+1.Unary operator overloading (non parameterized)
+2.Binary operator overloading(parameterized)
 
+
+INHERITANCE:
+->less number of object(advantage)
+-> first parent class memory get created
+->first child memory got released
+->less no of object but full memory get utilised
+->object is should be of child class so that it can access members of both parent and child as object of parent class wont be able to access member of child 
+
+1.singl :A->B // only two classes A->parent class B-> child class / derived class
+if both class have function of same name it will give priority to the child class(drawback)
+
+
+2.multiple :A->C<-B 
+can inherit more than one class at the same time
+"In a multiple Inheritance we can inherit more than one classes at a time "
+
+Signature:same return type , same name,same parameter
+
+"dimond problem arises when Signature is same "
+
+3.multilevel: A->B->C
+
+4.hierarchical: B->A<-C
+                   ^
+                   |
+                   D  
+all have same parrent class but not connected to one another we have to make different object for every class
+
+showcase client server model 
+
+
+5.Hybrid: A->B<-F->E<-D<-C
