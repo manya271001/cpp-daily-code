@@ -203,9 +203,51 @@ Signature:same return type , same name,same parameter
                    ^
                    |
                    D  
-all have same parrent class but not connected to one another we have to make different object for every class
+all have same parent class but not connected to one another we have to make different object for every class
 
-showcase client server model 
+showcase client server model/architechture
 
 
 5.Hybrid: A->B<-F->E<-D<-C
+combination of atleast two Inheritance
+"combination of different type of inheritance is called hybrid inheritance"
+
+'to reslove ambiguity we use virtual class inheritance by creating virtual pointer of 8 byte memory got waste extra 8byte and virtual pointer is usee to ressolve dimond problem"
+
+
+POLYMORPHISM: having more than one form
+
+1.Complile time: also know as early binding
+->function overloading
+->operator overloading
+->normal object
+->multiple function
+
+
+2.run time: also known as late binding
+->function overriding
+->virtual function
+->pure virtual function
+->super class : class with virual function and pointer object
+->abstract class
+->pointer object "->" this pointer : way to call member function for pointer object
+only works for function overriden by same as virtual function
+
+->normal object
+
+
+function overriding: same Signature
+
+class with pure virtual function is abstract class: if pure virtual function is not reassigned in child class the object of child class will not be made , memory will not be allocated
+
+pure virtual function : virtual fun_name()=0;
+assign to zero
+
+question
+1.table using class and constructor
+2.class 1 swap class 2 large ->single inhertiance
+3.large of two using frnd function
+4.add two object data
+5.sum of array using Anonymous
+6.Composite class prime number progar
+7.even odd using hybrid inheritance
